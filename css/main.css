@@ -157,5 +157,14 @@ section:nth-child(odd){
 	overflow: auto;
 	/* height: calc(100vh - 50.4px); */
 }
+#night {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin-top: 2em;
+	margin-right: 3.5em;
+	z-index: 1;
+	cursor: pointer;
+}
 
 

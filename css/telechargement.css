@@ -114,7 +114,9 @@ section {
 	float: right;
 	clear: both;
 }
-
+ul {
+	padding: 0;
+}
 #download-list > li > a {
   border: 2px solid #ddd;
   margin-top: -1px;
@@ -128,5 +130,10 @@ section {
 #nofound {
 	text-align: center;
 	display: none;
+}
+#night {
+	float: right;
+	margin-top: 9px;
+	cursor: pointer;
 }
 
