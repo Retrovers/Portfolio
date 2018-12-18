@@ -11,6 +11,9 @@
 		height: auto;
 		border-top: 1.5px black solid;
 	}
+	body {
+		overflow: auto;
+	}
 	.nav-content {
 		width: 100%;
 		display: flex;
@@ -41,7 +44,7 @@
 	}
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 470px){
 	nav {
 		display: none;
 	}

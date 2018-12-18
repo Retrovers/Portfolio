@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	scroll-behavior: smooth;
 	font-family: 'Open Sans', sans-serif;
-	overflow-y: auto;
+	overflow-y: hidden;
 	overflow-x: hidden;
 }
 nav {
@@ -70,7 +70,6 @@ nav {
 	display: inline-block;
 	margin-left: 20%;
 	margin-right: 20%;
-	overflow: auto;
 }
 section {
 	position: relative;
@@ -78,7 +77,6 @@ section {
 	display: block;
 	height: 100vh;
 	border-bottom: 1px black solid;
-	overflow: auto;
 }
 section:nth-child(odd){
 	background-color: #ecf0f1;
@@ -88,12 +86,12 @@ section:nth-child(odd){
 	float: left;
 	margin-right: 9px;
 }
-
 .section-content {
 	display: inline-block;
 	margin-left: 20%;
 	margin-right: 20%;
 	overflow: auto;
+	height: 100vh;
 }
 .section-separator {
 	margin-top: 2%;
@@ -149,12 +147,15 @@ section:nth-child(odd){
 	background-color: grey; /* Green */
 	color: white;
 }
-
 .title_section {
 	text-align: center;
 	font-size: 37px;
 	padding-bottom: 13px;
 	border-bottom: 1px solid black;
+}
+.info {
+	overflow: auto;
+	/* height: calc(100vh - 50.4px); */
 }
 
 
