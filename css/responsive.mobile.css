@@ -12,7 +12,8 @@
 		border-top: 1.5px black solid;
 	}
 	body {
-		overflow: auto;
+		overflow: hidden;
+		font-size: 69%;
 	}
 	.nav-content {
 		width: 100%;
@@ -54,8 +55,11 @@
 		margin-right: 2%;
 		overflow: auto;
 	}
-
 	body {
-		font-size: 2em;
+		font-size: 69%;
+		overflow: auto;
+	}
+	#night {
+		display: none;
 	}
 }

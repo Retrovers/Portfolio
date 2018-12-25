@@ -146,7 +146,7 @@ section:nth-child(odd){
 	transition-duration: 0.4s;
 }
 .btn:hover {
-	background-color: grey; /* Green */
+	background-color: grey;
 	color: white;
 }
 .title_section {
@@ -157,7 +157,6 @@ section:nth-child(odd){
 }
 .info {
 	overflow: auto;
-	/* height: calc(100vh - 50.4px); */
 }
 #night {
 	position: fixed;
@@ -168,6 +167,9 @@ section:nth-child(odd){
 	z-index: 1;
 	cursor: pointer;
 	filter: invert(1);
+}
+::-webkit-scrollbar {
+	width: 0px;
 }
 
 
