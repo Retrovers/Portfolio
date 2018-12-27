@@ -92,6 +92,7 @@ section:nth-child(odd){
 	margin-right: 20%;
 	overflow: auto;
 	height: 100vh;
+	width: 60%;
 }
 .section-separator {
 	margin-top: 2%;
@@ -167,4 +168,19 @@ section:nth-child(odd){
 ::-webkit-scrollbar {
 	width: 0px;
 }
-
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+td, th {
+	border: 1px solid black;
+}
+.table-content-maitrise {
+	width: 10%;
+}
+.table-content-web {
+	width: 45%;
+}
+.table-content-system {
+	width: 45%;
+}
