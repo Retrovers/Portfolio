@@ -188,5 +188,12 @@ td, th {
 .table-content-system {
 	width: 45%;
 }
-
-
+.mobile-nav {
+	display: none;
+}
+.deskop-nav {
+	display: block;
+}
+.tab-nav {
+	display: none;
+}

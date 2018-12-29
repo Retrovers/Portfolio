@@ -45,6 +45,15 @@
 		overflow: auto;
 		width: 88%;
 	}
+	.mobile-nav {
+		display: none;
+	}
+	.deskop-nav {
+		display: none;
+	}
+	.tab-nav {
+		display: block;
+	}
 }
 
 @media screen and (max-width: 470px){
@@ -63,6 +72,15 @@
 		overflow: auto;
 	}
 	#night {
+		display: none;
+	}
+	.mobile-nav {
+		display: block;
+	}
+	.deskop-nav {
+		display: none;
+	}
+	.tab-nav {
 		display: none;
 	}
 }
