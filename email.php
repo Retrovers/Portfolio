@@ -6,6 +6,6 @@
 	$email = htmlspecialchars($_POST['email']);
 	$message = htmlspecialchars($_POST['message']);
 
-	mail($myEmail, "Nouveau message depuis le site", "Message de : " . $name . " (".$email.")<br>".$message);
+	mail($myEmail, "Nouveau message depuis le site", "Message de : " . $name . " (".$email.")\n".$message);
 
  ?>
