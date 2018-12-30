@@ -13,6 +13,7 @@
 	}
 	body {
 		overflow: auto;
+		font-size: 69%;
 	}
 	.nav-content {
 		width: 100%;
@@ -26,7 +27,7 @@
 		width: 33%;
 	}
 	.nav-content > li > a {
-		width: 75%;
+		width: 100%;
 		padding: 24.5px 32px; 
 	}
 	.nav-link {
@@ -64,9 +65,12 @@
 		font-size: 2em;
 	}
 	section {
-		overflow: hidden;
+		overflow: auto;
 	}
 	ul {
 		padding: 0;
+	}
+	#night {
+		display: none;
 	}
 }
